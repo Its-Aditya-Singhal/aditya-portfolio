@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aditya Singhal | AI &amp; ML Student and Developer</title>
+<meta name="description" content="Aditya Singhal is a B.Tech student in Artificial Intelligence and Machine Learning at PES University, building projects in security, voice AI, developer tools and machine learning.">
+<meta name="author" content="Aditya Singhal">
+<meta name="theme-color" content="#0E1013" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#F7F8FA" media="(prefers-color-scheme: light)">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Aditya Singhal">
+<meta property="og:description" content="B.Tech AI &amp; ML student at PES University. Projects in security, voice AI, developer tools and machine learning.">
+<meta property="og:image" content="assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="progress" id="progress" aria-hidden="true"></div>
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a class="brand" href="#top">Aditya Singhal</a>
+    <nav class="links" aria-label="Sections">
+      <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#credentials">Achievements</a><a href="#contact">Contact</a>
+    </nav>
+    <button class="icon-btn" id="theme" type="button" aria-label="Switch colour theme">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    </button>
+    <a class="btn primary sm" href="resume.pdf" target="_blank" rel="noopener">Résumé</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="status in-load"><i></i>B.Tech AI &amp; ML · PES University · Class of 2028</span>
+        <h1 class="in-load d1">Aditya Singhal</h1>
+        <p class="role in-load d2">I build secure, practical software with AI and machine learning.</p>
+        <p class="tag in-load d3" id="tagline"></p>
+        <div class="cta in-load d4">
+          <a class="btn primary" href="#projects">View projects <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6"/></svg></a>
+          <a class="btn" href="resume.pdf" target="_blank" rel="noopener">Résumé</a>
+          <a class="btn" href="https://github.com/Its-Aditya-Singhal" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/aditya-singhal-57aa87312" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+      <figure class="photo in-load d5">
+        <svg class="ring" viewBox="0 0 100 100" aria-hidden="true">
+          <circle class="track" cx="50" cy="50" r="48.5"/>
+          <circle class="s1" cx="50" cy="50" r="48.5" pathLength="100"/>
+          <circle class="s2" cx="50" cy="50" r="48.5" pathLength="100"/>
+        </svg>
+        <div class="img"><img src="assets/aditya.jpg" alt="Portrait of Aditya Singhal" width="640" height="640"></div>
+        <figcaption><i></i><b>Aditya Singhal</b><span>AI &amp; ML</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="block" id="about">
+    <div class="wrap">
+      <div class="about">
+        <div class="rv">
+          <span class="label">About</span>
+          <p class="lead" id="about1" style="margin-top:14px"></p>
+          <p id="about2"></p>
+          <div class="focus"><div class="chips" id="focus"></div></div>
+        </div>
+        <dl class="facts rv" id="facts"></dl>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="projects">
+    <div class="wrap">
+      <div class="head rv">
+        <div><span class="label">Projects</span><h2>Selected work</h2></div>
+        <p>Seven projects across security, voice AI, developer tools, machine learning and databases. Each card links to its code on GitHub.</p>
+      </div>
+      <div class="grid" id="grid"></div>
+    </div>
+  </section>
+
+  <section class="block" id="more">
+    <div class="wrap">
+      <div class="head rv">
+        <div><span class="label">More</span><h2>Other builds</h2></div>
+        <p>Course labs, small tools and hardware experiments.</p>
+      </div>
+      <div class="more" id="morelist"></div>
+    </div>
+  </section>
+
+  <section class="block" id="skills">
+    <div class="wrap">
+      <div class="head rv">
+        <div><span class="label">Skills</span><h2>Tools I work with</h2></div>
+        <p>Languages, frameworks and tools I have used in the projects above.</p>
+      </div>
+      <div class="skills rv" id="skilllist"></div>
+      <div class="sub rv"><span class="label">Soft skills</span><div class="chips" id="soft"></div></div>
+    </div>
+  </section>
+
+  <section class="block" id="credentials">
+    <div class="wrap">
+      <div class="head rv">
+        <div><span class="label">Achievements</span><h2>Achievements and learning</h2></div>
+        <p>Hackathon results, certifications, coursework and the clubs I'm part of at PES University.</p>
+      </div>
+      <div class="cols">
+        <div class="rv"><span class="label" style="display:block;margin-bottom:14px">Achievements</span><div class="list" id="ach"></div>
+          <div class="sub"><span class="label">Certifications</span><div class="list" id="certs"></div></div></div>
+        <div class="rv"><span class="label" style="display:block;margin-bottom:14px">Clubs and responsibilities</span><div class="list" id="clubs"></div>
+          <div class="sub"><span class="label">Key courses</span><div class="chips" id="courses"></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="contact">
+    <div class="wrap contact">
+      <div class="rv">
+        <span class="label">Contact</span>
+        <h2 style="margin-top:12px">Let's talk.</h2>
+        <p>I'm happy to hear about internships, research and project collaborations. Email is the quickest way to reach me.</p>
+      </div>
+      <div class="clist rv">
+        <div><span class="k">Email</span><span class="v" id="mail"></span><button class="copy" id="copy" type="button">Copy</button></div>
+        <div><span class="k">LinkedIn</span><a id="li" target="_blank" rel="noopener"></a></div>
+        <div><span class="k">GitHub</span><a id="gh" target="_blank" rel="noopener"></a></div>
+        <div><span class="k">Résumé</span><a href="resume.pdf" target="_blank" rel="noopener">One-page PDF</a></div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap"><span>© 2026 Aditya Singhal</span><a href="#top">Back to top ↑</a></div></footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
